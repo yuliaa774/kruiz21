@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header header-main">
+        <div class="container">
+            <div class="header__inner">
+                <a href="baza.html" class="logo">
+                  <img src="images/logo2.svg" alt="fdsl;d" class="logo__img">
+                </a>
+
+                <nav>
+                    <ul class="topmenu">
+                      <li><a href="onas.html">О нас</a></li>
+                      <li><a href="avtopark.html">Автопарк</a></li>
+
+                      <li><a href="#" >Билеты<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                          <li><a href="reis.html" class="active">Рейсы</a></li>
+                          <li><a href="zakaz.html">Заказать билеты</a></li>
+                        </ul>
+                      </li>
+
+                      <li><a href="feedback.html">Отзывы</a></li>
+                      <li><a href="contact.html">Контакты</a></li>
+
+                    </ul>
+                  </nav>
+            </div>
+
+        </div>
+    </header>
+    <main class="main__reis">
+      <p class="reis__title">Расписание автобусов по маршруту: Чебоксары - Москва- Чебоксары</p>
+      <div class="main-reis">
+            <table class="rtable">
+          <thead>
+            <tr>
+              <th>Выезд из города</th>
+              <th>Пункт отправления</th>
+              <th>Время отправления</td>
+              <th>Пункт прибытия</th>
+              <th>Дата отправления</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2" ><div><strong>Чебоксары</strong></div></td>
+              <td rowspan="2"><div>Пригородный АВ </div></td>
+              <td rowspan="2"><div>21:00</div></td>
+              <td width="160"><div>м.Щелково</div> </td>
+              <td rowspan="2"><div>Ежедневно</div></td>
+            </tr>
+            <tr>
+              <td width="160"><div>м.Черкизово</div></td>
+            </tr>
+            <tr>
+              <td rowspan="2"><div><strong> Москва</strong></div></td>
+              <td rowspan="2"><div>Щелковская А/C</div></td>
+              <td><div>19:30</div></td>
+              <td rowspan="2"><div>Чебоксары</div></td>
+              <td rowspan="2"><div>Ежедневно</div></td>
+            </tr>
+            <tr>
+              <td ><div>20:00</div></td>
+            </tr>
+          </tbody>
+        </table>  
+        <div class="reis__text">
+          <h2>Вы можете сделать заказ по телефону 
+            <a href="tel:8917-078-86-77" class="reis__zakaz" title="Give me a call" >+7(917)-078-86-77</a>
+          </h2> 
+          <h2>или через форму онлайн бронирования 
+            <a href="zakaz.html" title="Заказать билеты">
+              <span  class="reis__zakaz">
+                <strong>Заказать билеты</strong>
+              </span>
+            </a>
+          </h2>
+        </div>
+      </main>
+      <a href="#" class="scrollup">Наверх</a>
+
+    </body>
+      <footer class="footer">
+          <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+          </div>
+          <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="baza.html">Главная страница</a></li>
+            <li class="menu__item"><a class="menu__link" href="onas.html">О нас</a></li>
+            <li class="menu__item"><a class="menu__link" href="avtopark.html">Автопарк</a></li>
+            <li class="menu__item"><a class="menu__link" href="zakaz.html">Билеты</a>
+            <li class="menu__item"><a class="menu__link" href="feedback.html">Отзыв</a></li>
+            <li class="menu__item"><a class="menu__link" href="kartasite.html">Карта сайта</a></li>
+        
+            </ul>
+            <p>&copy;2023 Круиз21 | Все права защищены</p>
+      </footer>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
